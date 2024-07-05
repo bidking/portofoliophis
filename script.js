@@ -63,7 +63,7 @@ document.getElementById('whatsapp-form').addEventListener('submit', function(eve
   event.preventDefault();
   const name = document.getElementById('name').value;
   const message = document.getElementById('message').value;
-  const phoneNumber = '085951368186';
+  const phoneNumber = '6285951368186';
   const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=Nama:%20${encodeURIComponent(name)}%0APesan:%20${encodeURIComponent(message)}`;
   window.open(whatsappUrl, '_blank');
 });
